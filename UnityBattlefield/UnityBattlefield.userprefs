@@ -1,0 +1,27 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Game\GameManager.cs">
+    <Files>
+      <File FileName="Assets\Script\Game\RobotPlayer.cs" Line="111" Column="5" />
+      <File FileName="Assets\Script\Game\Robot.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Game\Weapon.cs" Line="1" Column="1" />
+      <File FileName="..\..\EA_API\ea_pathfinders_api\ea_pathfinder_topdownshooter\unity_topdownshooter\Assets\Player_Behavior.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Game\BulletPlasma.cs" Line="7" Column="2" />
+      <File FileName="Assets\Script\Game\Engine.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Game\Bullet.cs" Line="59" Column="4" />
+      <File FileName="Assets\Script\Game\GameManager.cs" Line="52" Column="5" />
+      <File FileName="Assets\Script\Record\Robot\RobotRecord.cs" Line="14" Column="38" />
+      <File FileName="Assets\Script\Game\WeaponShotgun.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Game\WeaponTesla.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Record\Battlefield.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="D:\PennApp\mech\UnityBattlefield\Assets\Script\Game\GameManager.cs" line="60" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Assets\Script\Game\GameManager.cs" line="79" offsetX="333" offsetY="1326" expression="c" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Top Down Game</title>
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+	<div id = "w">
+		<img src="../img/circle.png" id="w_circle"/> 
+	</div>
+
+	<div id = "s">
+		<img src="../img/circle.png" id="s_circle"/> 
+	</div>
+
+	<div id = "d">
+		<img src="../img/circle.png" id="d_circle"/> 
+	</div>
+
+	<div id = "a">
+		<img src="../img/circle.png" id="a_circle"/> 
+	</div>
+
+
+	
+	<div id = "touchbox">
+		<img src="../img/spider.png" id="player"/> 
+	</div>
+	
+	<!-- Required javascript libraries. Add your own libraries here. -->
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/lib/connection.js"></script>
+
+	<!-- Load your controller's javascript here. -->
+	<script src="/js/controllerManager.js"></script>
+    <script src="/js/powerupButtonHandler.js"></script>
+	<script src="/js/touchBoxHandler.js"></script>
+	<script src="/js/arrowButtonHandler.js"></script>
+</body>
+</html>

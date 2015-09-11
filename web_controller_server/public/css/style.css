@@ -1,0 +1,116 @@
+@media only screen and (orientation: landscape) { 
+
+    /* Preload images */
+    body:before {
+        display: none;
+        content: url('/img/peggle_background.jpg')
+    }
+    
+    html, body {
+        width: 100%;
+        height: 100%;
+    } 
+    
+    body {
+        overflow-y: hidden ! important;
+        overflow-x: hidden ! important;
+        background-image: url('/img/bg.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    :-webkit-full-screen {
+		background: url('/img/bg.jpg');
+		background-size: 100% 100%;
+	}
+	:-moz-full-screen {
+		background: url('/img/bg.jpg');
+		background-size: 100% 100%;
+	}
+
+
+    #pause {
+        position: absolute;
+        right: 0;
+        top: 5%;
+        width: 12%;
+    }
+	
+	#touchbox {
+        height: 60%;
+        width: 40%;
+		left: 95%;
+		top: 80%;
+		margin-left: -40%;
+		margin-top: -33%;
+        background:rgba(0,0,0,0.5); /*the colour of the button*/
+        /*style the text*/
+        font-size:1.0em;
+        text-align: center;
+        vertical-align: middle;
+        color: #fff;
+        border-radius: 0px;
+		position: absolute;
+    }
+
+    #w {
+        position: absolute;
+         content: url('/img/circle.png');
+        width: 100px;
+        height: 100px;
+        left:15%;
+        top:10%;
+    }
+
+    #s {
+        position: absolute;
+         content: url('/img/circle.png');
+        width: 100px;
+        height: 100px;
+        left:15%;
+        top:50%;
+    }
+
+    #a {
+        position: absolute;
+         content: url('/img/circle.png');
+        width: 100px;
+        height: 100px;
+        left:0%;
+        top:30%;
+    }
+
+    #d {
+        position: absolute;
+         content: url('/img/circle.png');
+        width: 100px;
+        height: 100px;
+        left:30%;
+        top:30%;
+    }
+
+
+    #powerup {
+        height: 20%;
+        width: 20%;
+        background: #000000; /*the colour of the button*/
+        /*style the text*/
+        font-size:2.0em;
+        text-align: center;
+        vertical-align: middle;
+        color: #fff;
+        border-radius: 10px;
+		position: absolute;
+    }
+	
+	#player {
+		width: 12vw;
+		height: 12vw;
+		display:block;
+		position:relative;
+		top: 50%;
+		left: 50%;
+		margin-left: -6vw;
+		margin-top: -6vw;
+	}
+}

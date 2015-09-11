@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 891a73e41643db84b867442afb2cda77
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - ObstaclePrefab: {instanceID: 0}
+  - GroundPrefab: {instanceID: 0}
+  - g: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 336c9f3c0f1527741a6d70b0d553d57f
+timeCreated: 1440773960
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - fps_camera: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
